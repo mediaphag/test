@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<title>Add Product</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="addproduct.php" method="post" enctype="multipart/form-data">
+		<h1>Add Product</h1>
+		<label for="name">Product name</label>
+		<input id="name" type="text" name="Product name" required="required">
+		
+		<input id="button" type="submit" value="Save" class="first">
+		<input type="number" name="Quantity" maxlength="3">
+		<input type="password" name="Password">
+		<input type="checkbox" name="On">
+		<input type="radio" name="Enable" value="male">
+		<input type="radio" name="Enable" value="female">
+		<input type="radio" name="Enable" value="other">
+		<input type="file" name="file">
+		<textarea name="Description"></textarea>
+		<div>
+			<select name="Category" multiple="multiple">
+				<option value="1">Cat1</option>
+				<option value="2">Cat2</option>
+			</select>
+		</div>
+		<div>
+			<input type="phone" name="Phone">
+		</div>
+		<div>
+			<input type="hidden" name="Hidden" value="ijgwieg">
+		</div>
+	</form>
+
+</body>

@@ -1,0 +1,15 @@
+h1{
+	background-color: gray;
+}
+
+#button{
+	background: red;
+}
+
+.first {
+	font-size: 18px;
+}
+h2+p{
+font-size: 30 em;
+color: red;
+}

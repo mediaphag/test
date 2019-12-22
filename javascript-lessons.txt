@@ -1,0 +1,39 @@
+Массив
+array=[0:2,1:9,2:85,"word"]
+Вложенный массив
+array=[[2,9,85,"word"],[3,54,85,"word2"]]
+Объект
+var flag=false;object
+или
+var flag=newBoolean(false);
+
+ООП (про объекты)
+В объекте есть ключи
+{age:27, name:"Artem"}
+JSON - формат данных
+
+function (объект типа closure)
+
+date - дата (тип данных)
+
+специальное значение undefined
+null!=undefined
+
+Если объявли переменную и не задали значение, то у нее значени null
+Пример
+var arr;
+var arr=1;
+var bar=2;
+var foo=arr+bar;
+
+Что нельзя менять?
+const
+
+var artem=[38:27,21:"Artem"]
+const age=38;
+artem[age];
+Обычно так делается, для того что-бы не писать в комментарии, но дать понять другим, что у нас за ключи в массиве
+
+Объявления функции
+function Name (x1,x2)
+{abert1(1);}
